@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto final</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/css/Estilos.css">
+</head>
+<body>
+
+    <header>
+        <h1>Proyecto final</h1>
+        <button id="cesta-carrito"><i class="fas fa-shopping-cart"></i><span id="contador-carrito">0</span></button>
+    </header>
+
+    <button id="verPeliculas">Ver Películas</button>
+    <button id="ocultarPeliculas">Ocultar Películas</button>
+    <button id="verCandy">Ver Candy</button>
+    <button id="ocultarCandy">Ocultar Candy</button>
+    <button id="hola">Aparece</button>
+
+
+    <!-- Filtrar peliculas -->
+    <h6> Filtrar pelicula por nombre</h6>
+    <label for="filtro"></label>
+    <input type="text" id="filtro">
+    <button id="filtrar-peliculas">Filtrar</button>
+    <!-- Filtrar Candy -->
+    <h6> Filtrar candy por nombre</h6>
+    <input type="text" id="filtro">
+    <button id="filtrar-candy">Filtrar</button>
+
+    <main id="cine-contenedor">
+        <section id="cine-peliculas">
+        </section>
+    </main>
+
+    <main class="candy-contenedor">
+        <section id="cine-candy">
+
+        </section>
+
+    </main>
+
+
+    <script type="module" src="./App.js"></script>
+    <script src="https://kit.fontawesome.com/df59baf6b8.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
